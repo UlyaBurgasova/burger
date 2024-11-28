@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YUME</title>
+    <link rel="stylesheet" href="/css/style.css">
+    </linkrel>
+</head>
+<link rel="stylesheet" href="smartbasket/css/smartbasket.min.css">
+
+<div class="smart-basket__wrapper"></div>
+
+<script src="./smartbasket/js/smartbasket.min.js"></script>
+
+<script>
+    $(function () {
+        $('.smart-basket__wrapper').smbasket({
+            productElement: 'клас обвертки карточки товара',
+            buttonAddToBasket: 'клас кнопки купить',
+            productPrice: 'product__price-number',
+            productSize: 'product__size-element',
+
+            productQuantityWrapper: 'product__quantity',
+            smartBasketMinArea: 'класс корзины',
+            countryCode: '+7',
+            smartBasketCurrency: '₽',
+            smartBasketMinIconPath: './smartbasket/img/shopping-basket-wight.svg',
+
+            agreement: {
+                isRequired: true,
+                isChecked: true,
+                isLink: 'https://artstranger.ru/privacy.html',
+            },
+            nameIsRequired: false,
+        });
+    });
+</script>
+
+<body>
+    <header>
+        <img src="/img/logo.png">
+        <div class="nav">
+            <a href="#1" class="botton">О НАС</a>
+            <a href="#2" class="botton">МЕНЮ</a>
+            <a href="#3" class="botton">ЗАКАЗ</a>
+        </div>
+    </header>
+    <div class="container1">
+        <img src="/img/back1.jpg" class="img-1">
+    </div>
+    <div id="1" class="headline">о нас</div>
+    <div class="container2">
+        <div class="card-container">
+            <div class="card-left">
+                <div class="card-left-title">кто мы?</div>
+                <div class="card-left-content">Наш коллектив профессионалов, имеющих богатый опыт работы в сфере
+                    ресторанного бизнеса, стремится создать уникальный и неповторимый вкус каждого из наших бургеров. Мы
+                    используем только свежие ингредиенты, такие как мясо говядины, курица, свинина, овощи и сыры, чтобы
+                    создать настоящие шедевры гастрономии.</div>
+            </div>
+            <img src="/img/aboutus.jpg">
+        </div>
+    </div>
+    <div id="2" class="headline">меню</div>
+    <div class="container3">
+        <div class="menu-nav">
+            <a href="#b" class="nav-botton">бургеры</a>
+            <a href="#g" class="nav-botton">гарниры</a>
+            <a href="#d" class="nav-botton">десерты</a>
+            <a href="#n" class="nav-botton">напитки</a>
+        </div>
+        <div class="category">
+            <div id="b" class="category-title">бургеры</div>
+            <div class="category-cards">
+                <div class="card">
+                    <div class="card-title">YUME (ЯМИ) БУРГЕР</div>
+                    <img src="/img/yamy_burger.png" class="card-image">
+                    <div class="card-price">200 руб.</div>
+                    <div class="card-counter">
+                        <div class="card-counter-minuse">-</div>
+                        <div class="card-counter-number">1</div>
+                        <div class="card-counter-plus">+</div>
+                    </div>
+                    <div class="card-add">добавить</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">СТИЛЬНЫЙ DOUBLE</div>
+                    <img src="/img/double_burger.png" class="card-image">
+                    <div class="card-price">250 руб.</div>
+                    <div class="card-counter">
+                        <div class="card-counter-minuse">-</div>
+                        <div class="card-counter-number">1</div>
+                        <div class="card-counter-plus">+</div>
+                    </div>
+                    <div class="card-add">добавить</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">JUST БУРГЕР</div>
+                    <img src="/img/just_burger.png" class="card-image">
+                    <div class="card-price">120 руб.</div>
+                    <div class="card-counter">
+                        <div class="card-counter-minuse">-</div>
+                        <div class="card-counter-number">1</div>
+                        <div class="card-counter-plus">+</div>
+                    </div>
+                    <div class="card-add">добавить</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">STYLE БУРГЕР</div>
+                    <img src="/img/style_burger.png" class="card-image">
+                    <div class="card-price">180 руб.</div>
+                    <div class="card-counter">
+                        <div class="card-counter-minuse">-</div>
+                        <div class="card-counter-number">1</div>
+                        <div class="card-counter-plus">+</div>
+                    </div>
+                    <div class="card-add">добавить</div>
+                </div>
+            </div>
+        </div>
+        <div class="category">
+            <div id="g" class="category-title">гарниры</div>
+            <div class="category-cards">
+                <div class="card">
+                    <div class="card-title">КАРТОШКА FREEEEE</div>
+                    <img src="/img/potato.png" class="card-image">
+                    <div class="card-price">100 руб.</div>
+                    <div class="card-counter">
+                        <div class="card-counter-minuse">-</div>
+                        <div class="card-counter-number">1</div>
+                        <div class="card-counter-plus">+</div>
+                    </div>
+                    <div class="card-add">добавить</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">НАГГЕТСЫ</div>
+                    <img src="/img/naddets.png" class="card-image">
+                    <div class="card-price">140 руб.</div>
+                    <div class="card-counter">
+                        <div class="card-counter-minuse">-</div>
+                        <div class="card-counter-number">1</div>
+                        <div class="card-counter-plus">+</div>
+                    </div>
+                    <div class="card-add">добавить</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">CHEEEEEESE КОЛЬЦА</div>
+                    <img src="/img/cheese.png" class="card-image">
+                    <div class="card-price">160 руб.</div>
+                    <div class="card-counter">
+                        <div class="card-counter-minuse">-</div>
+                        <div class="card-counter-number">1</div>
+                        <div class="card-counter-plus">+</div>
+                    </div>
+                    <div class="card-add">добавить</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">НАЧЧОС МЕКСИКАНО</div>
+                    <img src="/img/nachos.png" class="card-image">
+                    <div class="card-price">120</div>
+                    <div class="card-counter">
+                        <div class="card-counter-minuse">-</div>
+                        <div class="card-counter-number">1</div>
+                        <div class="card-counter-plus">+</div>
+                    </div>
+                    <div class="card-add">добавить</div>
+                </div>
+            </div>
+        </div>
+        <div class="category">
+            <div id="d" class="category-title">десерты</div>
+            <div class="category-cards">
+                <div class="card">
+                    <div class="card-title">ШОКОЛАДНЫЕ<br> ПЕЧЕНЬЯ</div>
+                    <img src="/img/cookie.png" class="card-image">
+                    <div class="card-price">140 руб.</div>
+                    <div class="card-counter">
+                        <div class="card-counter-minuse">-</div>
+                        <div class="card-counter-number">1</div>
+                        <div class="card-counter-plus">+</div>
+                    </div>
+                    <div class="card-add">добавить</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">МОРОЖЕНОЕ <br>
+                        (в ассортименте)</div>
+                    <img src="/img/ice cream.png" class="card-image">
+                    <div class="card-price">100 руб.</div>
+                    <div class="card-counter">
+                        <div class="card-counter-minuse">-</div>
+                        <div class="card-counter-number">1</div>
+                        <div class="card-counter-plus">+</div>
+                    </div>
+                    <div class="card-add">добавить</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">КЛУБНИЧНОЕ<br> ПИРОЖНОЕ</div>
+                    <img src="/img/cake.png" class="card-image">
+                    <div class="card-price">130 руб.</div>
+                    <div class="card-counter">
+                        <div class="card-counter-minuse">-</div>
+                        <div class="card-counter-number">1</div>
+                        <div class="card-counter-plus">+</div>
+                    </div>
+                    <div class="card-add">добавить</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">МАКАРОНЫ<br>
+                        (в ассортименте)</div>
+                    <img src="/img/macaron.png" class="card-image">
+                    <div class="card-price">150 руб.</div>
+                    <div class="card-counter">
+                        <div class="card-counter-minuse">-</div>
+                        <div class="card-counter-number">1</div>
+                        <div class="card-counter-plus">+</div>
+                    </div>
+                    <div class="card-add">добавить</div>
+                </div>
+            </div>
+        </div>
+        <div class="category">
+            <div id="n" class="category-title">напитки</div>
+            <div class="category-cards">
+                <div class="card">
+                    <div class="card-title">ДОБРЫЙ НАПИТОК<br>
+                        (в ассортименте)</div>
+                    <img src="/img/cola.png" class="card-image">
+                    <div class="card-price">100 руб.</div>
+                    <div class="card-counter">
+                        <div class="card-counter-minuse">-</div>
+                        <div class="card-counter-number">1</div>
+                        <div class="card-counter-plus">+</div>
+                    </div>
+                    <div class="card-add">добавить</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">МОЛОЧНЫЙ КОКТЕЙЛЬ<br>
+                        (в ассортименте)</div>
+                    <img src="/img/coctail.png" class="card-image">
+                    <div class="card-price">160 руб.</div>
+                    <div class="card-counter">
+                        <div class="card-counter-minuse">-</div>
+                        <div class="card-counter-number">1</div>
+                        <div class="card-counter-plus">+</div>
+                    </div>
+                    <div class="card-add">добавить</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">ПИТЬЕВАЯ ВОДА<br>
+                        (без газа)
+                    </div>
+                    <img src="/img/water.png" class="card-image">
+                    <div class="card-price">80 руб.</div>
+                    <div class="card-counter">
+                        <div class="card-counter-minuse">-</div>
+                        <div class="card-counter-number">1</div>
+                        <div class="card-counter-plus">+</div>
+                    </div>
+                    <div class="card-add">добавить</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">ФРУКТОВЫЙ СОК<br>
+                        (в ассортименте)</div>
+                    <img src="/img/juice.png" class="card-image">
+                    <div class="card-price">110 руб.</div>
+                    <div class="card-counter">
+                        <div class="card-counter-minuse">-</div>
+                        <div class="card-counter-number">1</div>
+                        <div class="card-counter-plus">+</div>
+                    </div>
+                    <div class="card-add">добавить</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="3" class="headline">заказ</div>
+
+    <section class="order">
+        <div class="h_order"></div>
+        <div class="order_block"></div>
+        <div class="order_price"></div>
+    </section>
+
+    <footer>
+        <div class="footer_img">
+            <img src="/img/potatoBlue.jpg" alt="" class="footer_img-food">
+            <img src="/img/burgerPink.jpg" alt="" class="footer_img-food">
+        </div>
+        <div class="footer_mid">
+            <div class="footer_link">
+                <div class="footer_link-1">
+                    <a href="#1" class="footer_link-text">О нас</a>
+                    <a href="#2" class="footer_link-text">Меню</a>
+                    <a href="#3" class="footer_link-text">Заказ</a>
+                </div>
+                <div class="footer_link-2">
+                    <a href="" class="footer_link-img"><img src="/img/vk.png" alt=""></a>
+                    <a href="" class="footer_link-img"><img src="/img/Instagram.png" alt=""></a>
+                    <a href="" class="footer_link-img"><img src="/img/Facebook.png" alt=""></a>
+                    <a href="" class="footer_link-img"><img src="/img/X.png" alt=""></a>
+                    <a href="" class="footer_link-img"><img src="/img/TT.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer_logo">
+                <img src="/img/image.png" alt="" class="footer_logo-img">
+            </div>
+        </div>
+        <hr>
+        <div class="footer_footer">
+            <p class="footer_policy">Политика конфиденциальности</p>
+            <p class="footer_guard">©2024 JiiiN Co, Россия. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
